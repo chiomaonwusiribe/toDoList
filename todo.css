@@ -1,0 +1,99 @@
+*{
+    --green:#183c0a;
+    --brown:#fbfbfb;
+}
+body{
+    background: linear-gradient(40deg, #183c0a, #fbfbfb);
+    animation: color;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    
+    100%{
+        background-position: 0% 50%;
+    }
+
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.1rem 2rem;
+    
+}
+.header_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 3rem;   
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem 2rem;
+}
+img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.button1{
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: linear-gradient(40deg,  #fbfbfb, #183c0a);
+    animation: color;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    
+    100%{
+        background-position: 0% 50%;
+    }
+
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.text1{
+    height: 40px;
+    width: 280px;
+
+}
+.bt{
+    height: 250px;
+    width: 280px;
+
+}
